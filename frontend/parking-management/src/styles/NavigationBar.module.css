@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.nav-bar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
+
+.nav-bar-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar-list li a:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  color: rgb(250, 250, 252);
+}

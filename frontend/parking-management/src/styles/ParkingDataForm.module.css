@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 47vh;
+  border: 0 solid #29174b;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #8babce;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #1e64b0;
+}

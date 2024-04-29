@@ -5,20 +5,27 @@
   justify-content: center;
   align-items: center;
   height: 40vh;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px white;
 }
 
 .content-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 30%;
   height: 47vh;
   list-style-type: none;
   padding: 0;
   overflow-y: auto;
-  border: 2px solid #29174b;
+  border: 0 solid #29174b;
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .content-list::-webkit-scrollbar {
@@ -31,13 +38,4 @@
 
 .content-list li {
   list-style-type: none;
-}
-
-.parking-status-content {
-  font-family: "Electrolize", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
-  text-shadow: 0 0 10px white;
 }

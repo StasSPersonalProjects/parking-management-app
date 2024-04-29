@@ -85,16 +85,14 @@ export default function ParkingStatus() {
   }, []);
 
   return (
-    <div className={styles['parking-status-content']}>
-      <div className={styles['list-container']}>
-        <ul className={styles['content-list']}>
-          {isLoading ? loadingMessage : floorsStatus.map((floorData, index) => (
-            <li key={index}>
-              <StatusPart floor={floorData.floor} freePlaces={floorData.freePlacesOnFloor} />
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className={styles['list-container']}>
+      <ul className={styles['content-list']}>
+        {isLoading ? loadingMessage : floorsStatus.map((floorData, index) => (
+          <li key={index}>
+            <StatusPart floor={floorData.floor} freePlaces={floorData.freePlacesOnFloor} />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
