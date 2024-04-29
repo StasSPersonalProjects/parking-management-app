@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 47vh;
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+  border: 2px solid #29174b;
+  border-radius: 10px;
+}
+
+.content-list::-webkit-scrollbar {
+  width: 12px;
+}
+
+.content-list::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(42, 15, 41, 0.2);
+}
+
+.content-list li {
+  list-style-type: none;
+}
+
+.parking-status-content {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px white;
+}
