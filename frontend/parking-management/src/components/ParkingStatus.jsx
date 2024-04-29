@@ -4,7 +4,7 @@ import Stomp from 'stompjs';
 
 import StatusPart from "./StatusPart";
 import styles from '../styles/ParkingStatus.module.css';
-import { webSocketURL, webSocketURLtopic, parkingDataURL } from "../urls/urls";
+import { webSocketURL, webSocketURLtopic, parkingDataURL } from "../util/urls";
 
 export default function ParkingStatus() {
 
